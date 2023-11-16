@@ -1,0 +1,92 @@
+.sobre {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr, 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 250px 20px;
+}
+
+
+
+.sobre-container {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    margin-bottom: 120px;
+    gap: 10%;
+}
+
+.sobre-container img {
+    width: 100%;
+}
+
+.sobre-conteudo {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+
+.nome p {
+    text-align: center;
+    margin-top: 10px;
+
+
+}
+
+
+.sobre-conteudo li {
+    color: #fff;
+}
+
+.sobre h2 {
+    color: #fff;
+    font-size: 3rem;
+}
+
+.sobre img {
+    border-radius: 4px;
+}
+
+.sobre p {
+    color: #fff;
+}
+
+.sub-t {
+    color: #fff;
+}
+
+.facul-lista {
+    display: flex;
+    justify-content: space-between;
+}
+
+.facul {
+    
+    border-radius: 4px;
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    gap: 50px;
+    background: #2222;
+    position: relative;
+    box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+    transition: 0.3s ease;
+
+}
+
+.facul:hover {
+    transform: scale(1.05);
+}
+.facul-curso {
+    position: relative;
+}
+
+
+.facul-ano {
+    font-size: 0.8rem;
+    color: 	#C0C0C0;
+}

@@ -1,0 +1,42 @@
+.intro {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    padding: 250px 0px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.conteudo {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+
+.titulo {
+    font-size: 3.2rem;
+}
+
+.bold {
+    background: linear-gradient(to right, #eb5e28, #fca311); /* Substitua as cores conforme necessário */
+    -webkit-background-clip: text; /* Adiciona suporte ao Webkit (Safari/Chrome) */
+    color: transparent; 
+    font-weight: bold;
+}
+
+
+  
+.botao i {
+    background: linear-gradient(to right, #eb5e28, #fca311); /* Substitua as cores conforme necessário */
+    -webkit-background-clip: text; /* Adiciona suporte ao Webkit (Safari/Chrome) */
+    color: transparent; 
+    padding: 10px 40px;
+    font-size: 2.2rem;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
