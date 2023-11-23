@@ -33,8 +33,6 @@
 .nome p {
     text-align: center;
     margin-top: 10px;
-
-
 }
 
 
@@ -45,6 +43,7 @@
 .sobre h2 {
     color: #fff;
     font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
 }
 
 .sobre img {
@@ -53,6 +52,7 @@
 
 .sobre p {
     color: #fff;
+
 }
 
 .sub-t {
@@ -75,7 +75,6 @@
     position: relative;
     box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
     transition: 0.3s ease;
-
 }
 
 .facul:hover {
@@ -86,7 +85,33 @@
 }
 
 
-.facul-ano {
-    font-size: 0.8rem;
+.facul-ano, .facul-inst {
+    font-size: 0.9rem;
     color: 	#C0C0C0;
+}
+
+@media (max-width:800px) {
+    .nome {
+        display: none;
+    }
+
+    .facul {
+        padding: 10px;
+        gap: 10px;
+    }
+
+
+
+    .facul-lista {
+        justify-content: space-between;
+        gap: 20px;
+    }
+    
+    .facul h3 {
+        font-size: 1rem;
+    }
+
+    span.facul-ano {
+        font-size: 0.8rem;
+    }
 }

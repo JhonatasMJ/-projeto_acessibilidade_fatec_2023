@@ -1,0 +1,43 @@
+footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 1fr, 1fr;
+    align-items: center;
+    gap: 20px;
+    padding: 180px 20px;
+
+}
+
+footer h2 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+footer p {
+    color: #b2b2b2;
+    text-align: center;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.footer-conteudo a {
+    background: #111;
+    color: #fff;
+    padding: 16px 20px;
+    border-radius: 4px;
+    font-size: 1.2rem;
+}
+
+
