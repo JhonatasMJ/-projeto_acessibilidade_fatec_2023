@@ -16,7 +16,24 @@
 .projetos img {
     border-radius: 10px;
     width: 80%;
+    box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+    padding: 40px;
+   animation:  pulsar 3s infinite;
 }
+
+
+@keyframes pulsar {
+    0% {
+        box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+    }
+    50% {
+      box-shadow: #fca311 6px 14px, #eb5e28 16px 18px;
+    }
+    100% {
+        box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+    }
+  }
+  
 
 .projetos p {
     color: #c2c2c2;
@@ -79,3 +96,8 @@
 
 
 
+@media (max-width:800px) {
+    .projetos img {
+        display: none;
+    }
+}

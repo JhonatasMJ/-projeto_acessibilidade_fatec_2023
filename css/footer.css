@@ -41,3 +41,8 @@ footer p {
 }
 
 
+@media (max-width:800px) {
+    footer h2 {
+        font-size: 1.5rem;
+    }
+}
