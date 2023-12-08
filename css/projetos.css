@@ -16,24 +16,66 @@
 .projetos img {
     border-radius: 10px;
     width: 80%;
-    box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
     padding: 40px;
-   animation:  pulsar 3s infinite;
+}
+
+.ecomatch {
+    box-shadow: #65ab15 5px 5px, #1a6b17 10px 10px;
+    animation:  pulsarE 3s infinite;
+}
+
+.lfl {
+    box-shadow: #FD51E3 5px 5px, #6F51FA 10px 10px; 
+    animation:  pulsarL 3s infinite;
+
+}
+
+.bikcraft {
+    box-shadow: #fff 5px 5px, #222 10px 10px; 
+    animation: pulsarB 3s infinite;
 }
 
 
-@keyframes pulsar {
+@keyframes pulsarE {
+  0% {
+      box-shadow: #65ab15 5px 5px, #1a6b17 10px 10px; 
+  }
+  50% {
+    box-shadow: #65ab15 6px 14px, #1a6b17 16px 18px;
+  }
+  100% {
+      box-shadow: #65ab15 5px 5px, #1a6b17 10px 10px; 
+  }
+}
+
+@keyframes pulsarL {
     0% {
-        box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+        box-shadow: #FD51E3 5px 5px, #6F51FA 10px 10px; 
     }
     50% {
-      box-shadow: #fca311 6px 14px, #eb5e28 16px 18px;
+      box-shadow: #FD51E3 6px 14px, #6F51FA 16px 18px;
     }
     100% {
-        box-shadow: #fca311 5px 5px, #eb5e28 10px 10px; 
+        box-shadow: #FD51E3 5px 5px, #6F51FA 10px 10px; 
     }
   }
   
+
+
+
+
+  
+@keyframes pulsarB {
+    0% {
+        box-shadow: #fff 5px 5px, #222 10px 10px; 
+    }
+    50% {
+      box-shadow: #fff 6px 14px,  #222 16px 18px;
+    }
+    100% {
+        box-shadow: #fff 5px 5px,  #222 10px 10px; 
+    }
+  }
 
 .projetos p {
     color: #c2c2c2;
